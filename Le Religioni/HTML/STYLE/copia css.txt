@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    border: static white 5px;
+    background-color: rgb(158, 168, 248);
+}
+
+    header {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(110, 142, 238); 
+
+
+
+
+h1 {
+    font-size: 500%;
+    font-family:Times New Roman;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 1.6%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color:rgb(222, 223, 142);
+    text-shadow: black  5px 5px 5px;
+    text-align: center;
+}
+
+h2 {
+font-size: 250%;
+font-family:Times New Roman;
+font-style: italic;
+margin: 0;
+margin-bottom: 3%;
+padding-top: 0%;
+padding-bottom: 1%;
+color:rgb(222, 223, 142);
+text-shadow: black  5px 5px 5px;
+text-align: center;
+}
+
+
+a {
+    color: white;
+    text-shadow: black 5px 5px 3px;
+    text-decoration: none;
+    
+   
+}
+
+a:hover {
+    color:rgb(222, 223, 142);
+    font-weight: 600;
+}
+
+
+.box {
+    margin: 0;
+    padding-right: 650px;
+    padding-left: 35%;
+    margin-left: 0;
+    padding-top: 0;
+}
+
+.list {
+    padding: 0;
+    margin: 1px;
+    position: 50% 50%; 
+    text-align: center; 
+    font-size: 490%;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+li {
+    border-radius: solid white 3px;
+    margin-left: 0px;
+    padding-left: 3px;
+    text-align: center;
+    list-style-type: none;
+}
+
+li:hover {
+    list-style-image: url(IMG/Freccia-destra.svg);
+}
+
+.immagine {
+    height: 50px;
+    width: 50px;
+    border-right: solid white 3px;
+    border-left: solid white 3px;
+    border-top: none;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+
+}
+
+.box-img {
+    width: 99%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
